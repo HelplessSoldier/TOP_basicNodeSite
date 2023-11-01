@@ -1,5 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+body {
+  font-family: Oswald;
+  font-weight: 600;
+  color: white;
+  background-color: #1a1a1a;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .navContainer {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
+.navContainer > a {
+  color: white;
+  font-size: 21px;
+}
